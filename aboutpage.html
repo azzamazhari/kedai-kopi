@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tentang Kami</title>
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon" />
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <!-- my style -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Navbar Start -->
+    <nav class="navbar">
+      <a href="index.html" class="navbar-logo"><span>sokeen</span>coffee.</a>
+
+      <div class="navbar-nav">
+        <a href="index.html">Home</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="menupage.html">Menu</a>
+        <a href="storypage.html">Sejarah Kopi</a>
+        <a href="contactpage.html">Kontak</a>
+      </div>
+
+      <div class="navbar-extra">
+        <a href="#" id="search"><i data-feather="search"></i></a>
+        <a href="cart.html" id="shopping-cart"
+          ><i data-feather="shopping-cart"></i
+        ></a>
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- About Section start -->
+    <section id="about" class="about">
+      <h2><span>Tentang</span> Kami</h2>
+
+      <div class="row">
+        <div class="about-img">
+          <img src="img/tentang-kami.jpg" alt="Tentang Kami" />
+        </div>
+        <div class="content">
+          <h3>Kenapa memilih kopi kami?</h3>
+          <p>
+            Sering dengar istilah “ngopi yuk!” bukan? Meskipun ujung-ujungnya
+            manusia tidak memesan kopi hitam, tapi istilah ngopi yuk terasa
+            begitu familiar. Tak ada sekelompok sahabat manapun di dunia ini
+            yang tak pernah menghabiskan waktu kebersamaannya di kedai kopi.
+            Kopi dinilai sebagai alat “pelebur batas" yang mampu mencairkan
+            kekakuan/masalah dan mempererat jalinan pertemanan. Ayo adakah yang
+            di sini tidak pernah ngopi bareng sahabatnya? Absolutely no!
+          </p>
+          <p>
+            Maka dari itu kami menyediakan kopi untuk teman-teman dengan harga
+            yang sangat terjangkau dengan berbagai jenis rasa.
+          </p>
+          <h3>Alamat Kami</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ab
+            rerum voluptas dolore mollitia minus ipsam quam nisi exercitationem
+            sed.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- About Section end -->
+
+    <!-- Footer start -->
+    <footer>
+      <div class="socials">
+        <a href="https://www.instagram.com/zhflbb/"
+          ><i data-feather="instagram"></i
+        ></a>
+        <a href="mailto:sokeencoffee.id@gmail.com,azzamazhari051@gmail.com"
+          ><i data-feather="mail"></i
+        ></a>
+        <a href="https://web.facebook.com/muhammadazzamazhari/"
+          ><i data-feather="facebook"></i
+        ></a>
+        <a href="contactpage.html"><i data-feather="message-square"></i></a>
+      </div>
+
+      <div class="links">
+        <a href="index.html">Home</a>
+        <a href="#">Tentang Kami</a>
+        <a href="menupage.html">Menu</a>
+        <a href="storypage.html">Sejarah</a>
+        <a href="contactpage.html">Kontak</a>
+      </div>
+
+      <div class="credit">
+        <p>
+          Created by
+          <a href="https://www.instagram.com/azzamazhari._/">M Azzam Azhari M</a
+          >. | &copy; 2023.
+        </p>
+      </div>
+    </footer>
+    <!-- Footer end -->
+
+    <!-- Feather Icons -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- My Javascript -->
+    <script src="js/script.js"></script>
+    <script src="dist/sweetalert2.all.min.js"></script>
+    <script>
+      const btn = document.getElementById("btn");
+      btn.addEventListener("click", function () {
+        Swal.fire("Pergi ke WhatsApp");
+      });
+    </script>
+  </body>
+</html>

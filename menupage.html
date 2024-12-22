@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu Kami</title>
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon" />
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <!-- my style -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Navbar Start -->
+    <nav class="navbar">
+      <a href="index.html" class="navbar-logo"><span>sokeen</span>coffee.</a>
+
+      <div class="navbar-nav">
+        <a href="index.html">Home</a>
+        <a href="aboutpage.html">Tentang Kami</a>
+        <a href="#menupage">Menu</a>
+        <a href="storypage.html">Sejarah Kopi</a>
+        <a href="contactpage.html">Kontak</a>
+      </div>
+
+      <div class="navbar-extra">
+        <a href="#" id="search"><i data-feather="search"></i></a>
+        <a href="cart.html" id="shopping-cart"
+          ><i data-feather="shopping-cart"></i
+        ></a>
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Menu Section start -->
+    <section id="menu" class="menu">
+      <h2><span>Menu</span> Kami</h2>
+      <p>Kami menyediakan beberapa menu hidangan untuk siap di pesan!</p>
+
+      <div class="row">
+        <div class="menu-card">
+          <img src="img/menu/1.jpg" alt="Espresso" class="menu-card-img" />
+          <h3 class="menu-card-title">- Vietnam Drip -</h3>
+          <p class="menu-card-price">IDR 7K</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/menu/2.jpg" alt="Espresso" class="menu-card-img" />
+          <h3 class="menu-card-title">- Kopi Tubruk -</h3>
+          <p class="menu-card-price">IDR 7K</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/menu/3.jpg" alt="Espresso" class="menu-card-img" />
+          <h3 class="menu-card-title">- Espresso -</h3>
+          <p class="menu-card-price">IDR 7K</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/menu/4.jpg" alt="Espresso" class="menu-card-img" />
+          <h3 class="menu-card-title">- Milk Sike -</h3>
+          <p class="menu-card-price">IDR 5K</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/menu/4.jpg" alt="Espresso" class="menu-card-img" />
+          <h3 class="menu-card-title">- Milk Sike -</h3>
+          <p class="menu-card-price">IDR 5K</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/menu/4.jpg" alt="Espresso" class="menu-card-img" />
+          <h3 class="menu-card-title">- Milk Sike -</h3>
+          <p class="menu-card-price">IDR 5K</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/menu/4.jpg" alt="Espresso" class="menu-card-img" />
+          <h3 class="menu-card-title">- Milk Sike -</h3>
+          <p class="menu-card-price">IDR 5K</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/menu/4.jpg" alt="Espresso" class="menu-card-img" />
+          <h3 class="menu-card-title">- Milk Sike -</h3>
+          <p class="menu-card-price">IDR 5K</p>
+        </div>
+      </div>
+    </section>
+    <!-- Menu Section end -->
+
+    <!-- Footer start -->
+    <footer>
+      <div class="socials">
+        <a href="https://www.instagram.com/zhflbb/"
+          ><i data-feather="instagram"></i
+        ></a>
+        <a href="mailto:sokeencoffee.id@gmail.com,azzamazhari051@gmail.com"
+          ><i data-feather="mail"></i
+        ></a>
+        <a href="https://web.facebook.com/muhammadazzamazhari/"
+          ><i data-feather="facebook"></i
+        ></a>
+        <a href="contactpage.html"><i data-feather="message-square"></i></a>
+      </div>
+
+      <div class="links">
+        <a href="index.html">Home</a>
+        <a href="aboutpage.html">Tentang Kami</a>
+        <a href="#">Menu</a>
+        <a href="storypage.html">Sejarah</a>
+        <a href="contactpage.html">Kontak</a>
+      </div>
+
+      <div class="credit">
+        <p>
+          Created by
+          <a href="https://www.instagram.com/azzamazhari._/">M Azzam Azhari M</a
+          >. | &copy; 2023.
+        </p>
+      </div>
+    </footer>
+    <!-- Footer end -->
+
+    <!-- Feather Icons -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- My Javascript -->
+    <script src="js/script.js"></script>
+    <script src="dist/sweetalert2.all.min.js"></script>
+    <script>
+      const btn = document.getElementById("btn");
+      btn.addEventListener("click", function () {
+        Swal.fire("Pergi ke WhatsApp");
+      });
+    </script>
+  </body>
+</html>
